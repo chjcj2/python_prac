@@ -35,7 +35,7 @@ class Usable(Item):
 
         
 portion = Usable("투명물약", 100, 0.2, False, "하나 마셔 체력을 80%까지 회복합니다.")
-sword = Wearable("이가닌자의 장검", 370, 7.8, True, "길게 휘둘러 80의 데미지를 줍니다")
+sword = Wearable("이가 닌자의 장검", 370, 7.8, True, "길게 휘둘러 80의 데미지를 줍니다")
 
 portion.use()
 portion.discard()
