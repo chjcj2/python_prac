@@ -1,4 +1,7 @@
 # post.py는 나중에 main.py의 모듈로 사용될 것.
+# 클래스 설계
+# - 속성 : 글번호, 제목, 본문, 조회수
+# - 메서드 : 게시물 수정하기, 조회수 증가하기, 속성 가져오기
 
 class Post:
     """
@@ -35,6 +38,8 @@ class Post:
 
     def get_view_count(self):
         return self.view_count
+
+# 모듈 안에서 테스트 해보기 위해 아래 코드를 실행 
 
 if __name__ == "__main__":
     post = Post(1,"테스트","테스트입니다",0)
