@@ -20,7 +20,6 @@ if os.path.exists(file_path):
         # Post 인스턴스 생성하기
         post = Post(int(data[0]),data[1],data[2],int(data[3]))
         post_list.append(post)
-    pass
 else:
     # 파일 생성하기
     f = open(file_path, "w", encoding="utf8", newline="")
