@@ -4,7 +4,7 @@ import csv
 from post import Post
 
 # 파일경로
-file_path = "./Chapter12/data.csv"  # 집데스크탑은 "python_prac" 이 기본경로. 다른 환경에서는 수정필요
+file_path = "./python_prac/Chapter12/data.csv"  # 집데스크탑은 "python_prac" 이 기본경로. 다른 환경에서는 수정필요
 
 # post 객체를 저장할 리스트
 post_list = []
